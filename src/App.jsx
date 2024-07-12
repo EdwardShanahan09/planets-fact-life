@@ -1,8 +1,17 @@
+import BgImage from "./assets/images/background-stars.svg";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
   return (
-    <>
-      <h1>Planets Fact Site</h1>
-    </>
+    <div
+      id="App"
+      style={{
+        background: `url(${BgImage}) no-repeat center/cover`,
+      }}
+    >
+      <Navbar />
+    </div>
   );
 }
 

@@ -1,0 +1,11 @@
+.Navbar {
+  padding: 1.6rem 2.4rem;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.4);
+}
+
+.Navbar__logo {
+  color: #ffffff;
+  font-family: "Antonio", sans-serif;
+  font-weight: 600;
+  font-size: 2.8rem;
+}
