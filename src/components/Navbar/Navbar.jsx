@@ -6,6 +6,12 @@ const Navbar = () => {
       <div className="Navbar__logo" href="#">
         THE PLANETS
       </div>
+
+      <div className="Navbar__menu">
+        <span className="Navbar__menu--bar"></span>
+        <span className="Navbar__menu--bar"></span>
+        <span className="Navbar__menu--bar"></span>
+      </div>
     </nav>
   );
 };
