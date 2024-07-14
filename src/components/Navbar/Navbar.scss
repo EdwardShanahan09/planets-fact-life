@@ -1,0 +1,26 @@
+.Navbar {
+  padding: 1.6rem 2.4rem;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.4);
+  display: flex;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    padding-top: 3.2rem;
+    padding-bottom: 2.7rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 2.4rem 3.2rem 2.7rem 3.2rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    color: #ffffff;
+    font-family: "Antonio", sans-serif;
+    font-weight: 600;
+    font-size: 2.8rem;
+  }
+}

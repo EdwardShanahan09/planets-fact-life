@@ -1,5 +1,5 @@
 import BgImage from "./assets/images/background-stars.svg";
-import "./App.css";
+import "./App.scss";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
