@@ -1,3 +1,4 @@
+import NavbarOverlay from "../NavbarOverlay/NavbarOverlay";
 import "./Navbar.scss";
 
 const Navbar = () => {
@@ -6,6 +7,8 @@ const Navbar = () => {
       <div className="Navbar__logo" href="#">
         THE PLANETS
       </div>
+
+      <NavbarOverlay />
 
       <div className="Navbar__menu">
         <span className="Navbar__menu--bar"></span>
