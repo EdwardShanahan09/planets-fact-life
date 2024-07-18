@@ -1,7 +1,7 @@
 import "./NavbarOverlay.scss";
 
-const NavbarOverlay = () => {
-  return <div className="NavbarOverlay"></div>;
+const NavbarOverlay = ({ isActive }) => {
+  return <div className={`NavbarOverlay ${isActive ? "active" : ""}`}></div>;
 };
 
 export default NavbarOverlay;
