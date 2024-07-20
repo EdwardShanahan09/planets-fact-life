@@ -26,6 +26,10 @@
     font-size: 2.8rem;
   }
 
+  &__list {
+    list-style: none;
+  }
+
   &__menu {
     &--bar {
       background-color: #fff;
