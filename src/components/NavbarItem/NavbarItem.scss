@@ -1,4 +1,23 @@
-.Navbar__item {
-  color: #fff;
-  text-decoration: none;
+.Navbar {
+  &__item {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & img {
+      width: 0.4rem;
+      height: 0.8rem;
+    }
+  }
+
+  &__link {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.3px;
+  }
 }
