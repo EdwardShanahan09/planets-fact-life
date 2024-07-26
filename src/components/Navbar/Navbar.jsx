@@ -55,7 +55,7 @@ const Navbar = () => {
 
       <NavbarOverlay isActive={isActive} />
 
-      <ul className="Navbar__list">
+      <ul className={`Navbar__list ${isActive ? "active" : ""}`}>
         {planetList.map((planet, index) => {
           return <NavbarItem planet={planet} key={index} />;
         })}

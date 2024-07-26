@@ -32,6 +32,15 @@
     top: 13.3rem;
     right: 2.4rem;
     left: 2.4rem;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 3;
+    transition: all 0.4s ease-in-out;
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
   }
 
   &__menu {

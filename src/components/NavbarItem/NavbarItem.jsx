@@ -5,7 +5,10 @@ const NavbarItem = ({ planet }) => {
   return (
     <li className="Navbar__item">
       <span>
-        <span className="Navbar__planet"></span>{" "}
+        <span
+          style={{ backgroundColor: `${planet.color}` }}
+          className="Navbar__planet"
+        ></span>{" "}
         <a className="Navbar__link" href="#">
           {planet.name}
         </a>{" "}

@@ -1,13 +1,12 @@
 .NavbarOverlay {
-  // background-color: #070724;
-  background-color: pink;
+  background-color: #070724;
   position: absolute;
   width: 0%;
   height: 90vh;
   top: 6.9rem;
   left: 0;
   z-index: 2;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   &.active {
     width: 100%;
