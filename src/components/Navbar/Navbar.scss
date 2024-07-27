@@ -1,5 +1,5 @@
 .Navbar {
-  border-bottom: 1px solid rgba(151, 151, 151, 0.4);
+  border-bottom: 1px solid #2d2d45;
   padding: 1.6rem 2.4rem;
   position: relative;
   display: flex;
@@ -24,6 +24,10 @@
     font-family: "Antonio", sans-serif;
     font-weight: 600;
     font-size: 2.8rem;
+
+    @media (min-width: 768px) {
+      margin-bottom: 3.9rem;
+    }
   }
 
   &__list {
@@ -36,6 +40,17 @@
     visibility: hidden;
     z-index: 3;
     transition: all 0.4s ease-in-out;
+
+    @media (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      opacity: 1;
+      visibility: visible;
+      position: relative;
+      top: 0;
+      right: 0;
+      left: 0;
+    }
 
     &.active {
       opacity: 1;
