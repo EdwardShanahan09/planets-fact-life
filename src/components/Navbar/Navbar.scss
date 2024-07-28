@@ -17,6 +17,7 @@
     padding: 2.4rem 3.2rem 2.7rem 3.2rem;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   &__logo {
@@ -27,6 +28,10 @@
 
     @media (min-width: 768px) {
       margin-bottom: 3.9rem;
+    }
+
+    @media (min-width: 1440px) {
+      margin-bottom: 0rem;
     }
   }
 
@@ -44,6 +49,7 @@
     @media (min-width: 768px) {
       display: flex;
       align-items: center;
+      justify-content: center;
       opacity: 1;
       visibility: visible;
       position: relative;

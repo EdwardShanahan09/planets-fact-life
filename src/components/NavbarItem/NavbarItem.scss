@@ -9,7 +9,7 @@
     margin-bottom: 2rem;
 
     @media (min-width: 768px) {
-      padding-bottom: 2rem;
+      padding-bottom: 0rem;
       flex-direction: row;
       margin-bottom: 0rem;
       border-bottom: none;
@@ -58,6 +58,17 @@
       font-size: 1.1rem;
       font-weight: normal;
       margin-left: 3.3rem;
+    }
+
+    @media (min-width: 1440px) {
+      color: #c1c1c8;
+      font-size: 1.1rem;
+      font-weight: normal;
+      margin-left: 3.3rem;
+
+      &:hover {
+        color: #fff;
+      }
     }
   }
 }
