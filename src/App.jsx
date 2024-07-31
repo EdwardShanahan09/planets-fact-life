@@ -1,6 +1,7 @@
 import BgImage from "./assets/images/background-stars.svg";
 import "./App.scss";
 import Navbar from "./components/Navbar/Navbar";
+import PlanetPage from "./components/PlanetPage/PlanentPage";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       }}
     >
       <Navbar />
+
+      <PlanetPage />
     </div>
   );
 }
